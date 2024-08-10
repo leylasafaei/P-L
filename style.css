@@ -1,0 +1,159 @@
+body {
+  background-image: linear-gradient(to right, #ee7bf8, #6ec9f3);
+}
+
+.top-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 130px;
+}
+
+.auth-box {
+  display: flex;
+  gap: 12px;
+}
+
+.auth-item {
+  border: 1px solid black;
+  border-radius: 40px;
+  background-color: rgb(26, 140, 216);
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+}
+
+.a-1,
+.a-2 {
+  color: rgb(14, 13, 13);
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  padding: 1px 12px;
+}
+
+.auth-icon {
+  margin-left: 7px;
+}
+
+.menu-bar {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 120px;
+  background-color: rgba(139, 136, 136, 0.182);
+}
+
+.menu-items {
+  display: flex;
+  gap: 20px;
+}
+
+.menu-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  text-align: center;
+}
+
+.item-text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.item-name {
+  display: block;
+  color: rgb(12, 12, 12);
+}
+
+.item-name-latin {
+  display: block;
+  font-size: 0.8em;
+  color: rgb(26, 140, 216);
+}
+
+.menu-item i {
+  font-size: 24px;
+  color: rgb(26, 140, 216);
+}
+
+.search-bar {
+  display: flex;
+  align-items: center;
+  flex: 0 0 220px;
+  position: relative;
+}
+
+.search-bar input {
+  width: 100%;
+  padding: 5px 10px 5px 10px;
+  border: 1px solid black;
+  border-radius: 20px;
+  box-sizing: border-box;
+  background-color: black;
+}
+.search-bar input {
+  transition: all 02s ease;
+}
+.search-icon {
+  position: absolute;
+  right: 170px;
+  font-size: 20px;
+  color: rgb(26, 140, 216);
+  border: none;
+}
+.search-bar input:hover {
+  background-color: aliceblue;
+}
+.accordion {
+  background-color: rgb(252, 252, 249);
+  padding: 10ox 20px;
+  width: 600px;
+  height: 90px;
+  overflow: auto;
+}
+.box {
+  background-color: rgb(253, 253, 244);
+  padding: 10ox 20px;
+  width: 600px;
+  height: 90px;
+  overflow: auto;
+}
+
+.min {
+  background-color: rgb(253, 253, 244);
+  padding: 10ox 20px;
+  width: 600px;
+  height: 90px;
+  overflow: auto;
+}
+.li-footer {
+  color: rgb(12, 12, 12);
+  list-style-type: none;
+  line-height: 40px;
+  font-size: 15px;
+}
+
+.select {
+  background-color: rgba(139, 136, 136, 0.182);
+}
+
+::selection {
+  background-color: #ee7bf8;
+  color: #5f0368;
+}
+
+.accordion-input {
+  transform: rotate(40deg);
+}
+.box-input {
+  transform: rotate(40deg);
+}
+.min-input {
+  transform: rotate(40deg);
+}
+@media screen and (max-width: 700px) {
+  .select {
+    background-color: rgb(226, 205, 228);
+  }
+}
